@@ -1,138 +1,352 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<archive type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="8.00">
-	<data>
-		<int key="IBDocument.SystemTarget">1536</int>
-		<string key="IBDocument.SystemVersion">12A269</string>
-		<string key="IBDocument.InterfaceBuilderVersion">2835</string>
-		<string key="IBDocument.AppKitVersion">1187</string>
-		<string key="IBDocument.HIToolboxVersion">624.00</string>
-		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
-			<string key="NS.key.0">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-			<string key="NS.object.0">1919</string>
-		</object>
-		<array key="IBDocument.IntegratedClassDependencies">
-			<string>IBProxyObject</string>
-			<string>IBUIView</string>
-		</array>
-		<array key="IBDocument.PluginDependencies">
-			<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-		</array>
-		<object class="NSMutableDictionary" key="IBDocument.Metadata">
-			<string key="NS.key.0">PluginDependencyRecalculationVersion</string>
-			<integer value="1" key="NS.object.0"/>
-		</object>
-		<array class="NSMutableArray" key="IBDocument.RootObjects" id="1000">
-			<object class="IBProxyObject" id="372490531">
-				<string key="IBProxiedObjectIdentifier">IBFilesOwner</string>
-				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-			</object>
-			<object class="IBProxyObject" id="843779117">
-				<string key="IBProxiedObjectIdentifier">IBFirstResponder</string>
-				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-			</object>
-			<object class="IBUIView" id="774585933">
-				<reference key="NSNextResponder"/>
-				<int key="NSvFlags">274</int>
-				<string key="NSFrame">{{0, 20}, {320, 548}}</string>
-				<reference key="NSSuperview"/>
-				<reference key="NSWindow"/>
-				<reference key="NSNextKeyView"/>
-				<object class="NSColor" key="IBUIBackgroundColor">
-					<int key="NSColorSpace">3</int>
-					<bytes key="NSWhite">MC43NQA</bytes>
-					<object class="NSColorSpace" key="NSCustomColorSpace">
-						<int key="NSID">2</int>
-					</object>
-				</object>
-				<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
-				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
-				<object class="IBUIScreenMetrics" key="IBUISimulatedDestinationMetrics">
-					<string key="IBUISimulatedSizeMetricsClass">IBUIScreenMetrics</string>
-					<object class="NSMutableDictionary" key="IBUINormalizedOrientationToSizeMap">
-						<bool key="EncodedWithXMLCoder">YES</bool>
-						<array key="dict.sortedKeys">
-							<integer value="1"/>
-							<integer value="3"/>
-						</array>
-						<array key="dict.values">
-							<string>{320, 568}</string>
-							<string>{568, 320}</string>
-						</array>
-					</object>
-					<string key="IBUITargetRuntime">IBCocoaTouchFramework</string>
-					<string key="IBUIDisplayName">Retina 4 Full Screen</string>
-					<int key="IBUIType">2</int>
-				</object>
-				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-			</object>
-		</array>
-		<object class="IBObjectContainer" key="IBDocument.Objects">
-			<array class="NSMutableArray" key="connectionRecords">
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">view</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="774585933"/>
-					</object>
-					<int key="connectionID">7</int>
-				</object>
-			</array>
-			<object class="IBMutableOrderedSet" key="objectRecords">
-				<array key="orderedObjects">
-					<object class="IBObjectRecord">
-						<int key="objectID">0</int>
-						<array key="object" id="0"/>
-						<reference key="children" ref="1000"/>
-						<nil key="parent"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">-1</int>
-						<reference key="object" ref="372490531"/>
-						<reference key="parent" ref="0"/>
-						<string key="objectName">File's Owner</string>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">-2</int>
-						<reference key="object" ref="843779117"/>
-						<reference key="parent" ref="0"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">6</int>
-						<reference key="object" ref="774585933"/>
-						<reference key="parent" ref="0"/>
-					</object>
-				</array>
-			</object>
-			<dictionary class="NSMutableDictionary" key="flattenedProperties">
-				<string key="-1.CustomClassName">ViewController</string>
-				<string key="-1.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="-2.CustomClassName">UIResponder</string>
-				<string key="-2.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="6.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-			</dictionary>
-			<dictionary class="NSMutableDictionary" key="unlocalizedProperties"/>
-			<nil key="activeLocalization"/>
-			<dictionary class="NSMutableDictionary" key="localizations"/>
-			<nil key="sourceID"/>
-			<int key="maxID">7</int>
-		</object>
-		<object class="IBClassDescriber" key="IBDocument.Classes">
-			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
-				<object class="IBPartialClassDescription">
-					<string key="className">ViewController</string>
-					<string key="superclassName">UIViewController</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/ViewController.h</string>
-					</object>
-				</object>
-			</array>
-		</object>
-		<int key="IBDocument.localizationMode">0</int>
-		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaTouchFramework</string>
-		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
-		<int key="IBDocument.defaultPropertyAccessControl">3</int>
-		<bool key="IBDocument.UseAutolayout">YES</bool>
-		<string key="IBCocoaTouchPluginVersion">1919</string>
-	</data>
-</archive>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
+            <connections>
+                <outlet property="calculatorScreen" destination="8" id="13"/>
+                <outlet property="view" destination="6" id="7"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="6">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="988.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="1913">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="563"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="563" id="1934"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" misplaced="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8">
+                    <rect key="frame" x="0.0" y="28" width="320" height="35"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="1960"/>
+                        <constraint firstAttribute="width" constant="296" id="1961"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </label>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1486">
+                    <rect key="frame" x="12" y="161" width="63" height="67"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="67" id="1491"/>
+                        <constraint firstAttribute="width" constant="63" id="1774"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="31"/>
+                    <state key="normal" title="1">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonDigitPressed:" destination="-1" eventType="touchDown" id="1814"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1492">
+                    <rect key="frame" x="89" y="161" width="63" height="67"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="63" id="1740"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="31"/>
+                    <state key="normal" title="2">
+                        <color key="titleColor" red="7.7222528977553751e-09" green="1.9929846938770979e-05" blue="1.7108024444645844e-05" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonDigitPressed:" destination="-1" eventType="touchDown" id="1815"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1501">
+                    <rect key="frame" x="160" y="151" width="63" height="67"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="31"/>
+                    <state key="normal" title="3">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonDigitPressed:" destination="-1" eventType="touchDown" id="1816"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1502">
+                    <rect key="frame" x="237" y="151" width="63" height="67"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="31"/>
+                    <state key="normal" title="*">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonOperationPressed:" destination="-1" eventType="touchDown" id="1827"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1689">
+                    <rect key="frame" x="12" y="78" width="140" height="65"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="65" id="1775"/>
+                        <constraint firstAttribute="width" constant="140" id="1776"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="31"/>
+                    <state key="normal" title="AC">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="cancelOperation" destination="-1" eventType="touchDown" id="1830"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1691">
+                    <rect key="frame" x="160" y="76" width="63" height="67"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="63" id="1694"/>
+                        <constraint firstAttribute="height" constant="67" id="1777"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="31"/>
+                    <state key="normal" title="C">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="cancelInput" destination="-1" eventType="touchDown" id="1829"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1692">
+                    <rect key="frame" x="237" y="76" width="63" height="67"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="63" id="1693"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="31"/>
+                    <state key="normal" title="/">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonOperationPressed:" destination="-1" eventType="touchDown" id="1828"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1519">
+                    <rect key="frame" x="12" y="226" width="63" height="67"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="67" id="1527"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="31"/>
+                    <state key="normal" title="4">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonDigitPressed:" destination="-1" eventType="touchDown" id="1817"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1520">
+                    <rect key="frame" x="89" y="226" width="63" height="67"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="31"/>
+                    <state key="normal" title="5">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonDigitPressed:" destination="-1" eventType="touchDown" id="1818"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1521">
+                    <rect key="frame" x="160" y="226" width="63" height="67"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="31"/>
+                    <state key="normal" title="6">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonDigitPressed:" destination="-1" eventType="touchDown" id="1819"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1522">
+                    <rect key="frame" x="237" y="226" width="63" height="68"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="68" id="1805"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="31"/>
+                    <state key="normal" title="-">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonOperationPressed:" destination="-1" eventType="touchDown" id="1826"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1545">
+                    <rect key="frame" x="12" y="301" width="63" height="67"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="67" id="1806"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="31"/>
+                    <state key="normal" title="7">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonDigitPressed:" destination="-1" eventType="touchDown" id="1820"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1546">
+                    <rect key="frame" x="89" y="301" width="63" height="67"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="31"/>
+                    <state key="normal" title="8">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonDigitPressed:" destination="-1" eventType="touchDown" id="1821"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="9" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1547">
+                    <rect key="frame" x="160" y="301" width="63" height="68"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="31"/>
+                    <state key="normal" title="9">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonDigitPressed:" destination="-1" eventType="touchDown" id="1822"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1571">
+                    <rect key="frame" x="50" y="437" width="140" height="67"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="67" id="1579"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="80"/>
+                    <state key="normal" title="0">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonDigitPressed:" destination="-1" eventType="touchDown" id="1823"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1573">
+                    <rect key="frame" x="234" y="437" width="63" height="66"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="31"/>
+                    <state key="normal" title="=">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonOperationPressed:" destination="-1" eventType="touchDown" id="1824"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1574">
+                    <rect key="frame" x="237" y="265" width="63" height="142"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="31"/>
+                    <state key="normal" title="+">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonOperationPressed:" destination="-1" eventType="touchDown" id="1825"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="black.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="91u-PZ-pUZ">
+                    <rect key="frame" x="11" y="561" width="307" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="1501" firstAttribute="leading" secondItem="1492" secondAttribute="trailing" constant="8" symbolic="YES" id="1512"/>
+                <constraint firstItem="1521" firstAttribute="leading" secondItem="1520" secondAttribute="trailing" constant="8" symbolic="YES" id="1528"/>
+                <constraint firstItem="1547" firstAttribute="leading" secondItem="1546" secondAttribute="trailing" constant="8" symbolic="YES" id="1561"/>
+                <constraint firstItem="1574" firstAttribute="bottom" secondItem="1573" secondAttribute="bottom" id="1596"/>
+                <constraint firstItem="1545" firstAttribute="leading" secondItem="1571" secondAttribute="leading" id="1615"/>
+                <constraint firstItem="1547" firstAttribute="leading" secondItem="1573" secondAttribute="leading" id="1618"/>
+                <constraint firstItem="1547" firstAttribute="trailing" secondItem="1573" secondAttribute="trailing" id="1625"/>
+                <constraint firstItem="1571" firstAttribute="top" secondItem="1545" secondAttribute="bottom" constant="8" symbolic="YES" id="1632"/>
+                <constraint firstItem="1519" firstAttribute="trailing" secondItem="1545" secondAttribute="trailing" id="1636"/>
+                <constraint firstItem="1522" firstAttribute="leading" secondItem="1502" secondAttribute="leading" id="1637"/>
+                <constraint firstItem="1521" firstAttribute="trailing" secondItem="1501" secondAttribute="trailing" id="1638"/>
+                <constraint firstItem="1519" firstAttribute="leading" secondItem="1486" secondAttribute="leading" id="1641"/>
+                <constraint firstItem="1520" firstAttribute="leading" secondItem="1546" secondAttribute="leading" id="1643"/>
+                <constraint firstItem="1545" firstAttribute="top" secondItem="1519" secondAttribute="bottom" constant="8" symbolic="YES" id="1644"/>
+                <constraint firstItem="1521" firstAttribute="leading" secondItem="1547" secondAttribute="leading" id="1646"/>
+                <constraint firstItem="1519" firstAttribute="trailing" secondItem="1486" secondAttribute="trailing" id="1647"/>
+                <constraint firstItem="1520" firstAttribute="leading" secondItem="1492" secondAttribute="leading" id="1648"/>
+                <constraint firstItem="1521" firstAttribute="trailing" secondItem="1547" secondAttribute="trailing" id="1650"/>
+                <constraint firstItem="1521" firstAttribute="leading" secondItem="1501" secondAttribute="leading" id="1651"/>
+                <constraint firstItem="1519" firstAttribute="leading" secondItem="1545" secondAttribute="leading" id="1656"/>
+                <constraint firstItem="1521" firstAttribute="baseline" secondItem="1522" secondAttribute="baseline" id="1660"/>
+                <constraint firstItem="1522" firstAttribute="top" secondItem="1502" secondAttribute="bottom" constant="8" symbolic="YES" id="1669"/>
+                <constraint firstItem="1519" firstAttribute="top" secondItem="1486" secondAttribute="bottom" constant="8" symbolic="YES" id="1674"/>
+                <constraint firstAttribute="trailing" secondItem="1574" secondAttribute="trailing" constant="20" symbolic="YES" id="1676"/>
+                <constraint firstAttribute="trailing" secondItem="1502" secondAttribute="trailing" constant="20" symbolic="YES" id="1685"/>
+                <constraint firstAttribute="trailing" secondItem="1522" secondAttribute="trailing" constant="20" symbolic="YES" id="1687"/>
+                <constraint firstItem="1692" firstAttribute="top" secondItem="1691" secondAttribute="top" id="1699"/>
+                <constraint firstItem="1692" firstAttribute="leading" secondItem="1502" secondAttribute="leading" id="1716"/>
+                <constraint firstItem="1486" firstAttribute="top" secondItem="1689" secondAttribute="bottom" constant="8" symbolic="YES" id="1718"/>
+                <constraint firstItem="1691" firstAttribute="leading" secondItem="1501" secondAttribute="leading" id="1720"/>
+                <constraint firstItem="1502" firstAttribute="top" secondItem="1692" secondAttribute="bottom" constant="8" symbolic="YES" id="1721"/>
+                <constraint firstItem="1501" firstAttribute="top" secondItem="1691" secondAttribute="bottom" constant="8" symbolic="YES" id="1722"/>
+                <constraint firstItem="1691" firstAttribute="trailing" secondItem="1501" secondAttribute="trailing" id="1723"/>
+                <constraint firstAttribute="trailing" secondItem="1692" secondAttribute="trailing" constant="20" symbolic="YES" id="1726"/>
+                <constraint firstItem="1689" firstAttribute="leading" secondItem="1486" secondAttribute="leading" id="1728"/>
+                <constraint firstItem="1691" firstAttribute="baseline" secondItem="1689" secondAttribute="baseline" id="1732"/>
+                <constraint firstItem="1492" firstAttribute="top" secondItem="1501" secondAttribute="top" id="1733"/>
+                <constraint firstItem="1691" firstAttribute="leading" secondItem="1689" secondAttribute="trailing" constant="8" symbolic="YES" id="1753"/>
+                <constraint firstItem="1547" firstAttribute="top" secondItem="1521" secondAttribute="bottom" constant="8" symbolic="YES" id="1755"/>
+                <constraint firstItem="1492" firstAttribute="top" secondItem="1689" secondAttribute="bottom" constant="8" symbolic="YES" id="1757"/>
+                <constraint firstItem="1546" firstAttribute="top" secondItem="1520" secondAttribute="bottom" constant="8" symbolic="YES" id="1759"/>
+                <constraint firstItem="1520" firstAttribute="top" secondItem="1492" secondAttribute="bottom" constant="8" symbolic="YES" id="1760"/>
+                <constraint firstItem="1521" firstAttribute="top" secondItem="1501" secondAttribute="bottom" constant="8" symbolic="YES" id="1764"/>
+                <constraint firstItem="1573" firstAttribute="top" secondItem="1547" secondAttribute="bottom" constant="8" symbolic="YES" id="1773"/>
+                <constraint firstItem="1573" firstAttribute="bottom" secondItem="1571" secondAttribute="bottom" id="1784"/>
+                <constraint firstItem="1571" firstAttribute="top" secondItem="1546" secondAttribute="bottom" constant="8" symbolic="YES" id="1790"/>
+                <constraint firstItem="1573" firstAttribute="leading" secondItem="1571" secondAttribute="trailing" constant="8" symbolic="YES" id="1794"/>
+                <constraint firstItem="1522" firstAttribute="leading" secondItem="1574" secondAttribute="leading" id="1798"/>
+                <constraint firstItem="1520" firstAttribute="top" secondItem="1519" secondAttribute="top" id="1799"/>
+                <constraint firstItem="1522" firstAttribute="top" secondItem="1521" secondAttribute="top" id="1800"/>
+                <constraint firstItem="1546" firstAttribute="baseline" secondItem="1547" secondAttribute="baseline" id="1802"/>
+                <constraint firstItem="1521" firstAttribute="top" secondItem="1520" secondAttribute="top" id="1804"/>
+                <constraint firstItem="1547" firstAttribute="top" secondItem="1574" secondAttribute="top" id="1808"/>
+                <constraint firstItem="1546" firstAttribute="top" secondItem="1547" secondAttribute="top" id="1809"/>
+                <constraint firstItem="1692" firstAttribute="baseline" secondItem="1691" secondAttribute="baseline" id="1810"/>
+                <constraint firstItem="1545" firstAttribute="top" secondItem="1546" secondAttribute="top" id="1811"/>
+                <constraint firstItem="1913" firstAttribute="leading" secondItem="6" secondAttribute="leading" id="1916"/>
+                <constraint firstItem="1913" firstAttribute="top" secondItem="6" secondAttribute="top" id="1935"/>
+                <constraint firstItem="1913" firstAttribute="trailing" secondItem="6" secondAttribute="trailing" id="1936"/>
+                <constraint firstItem="1691" firstAttribute="top" secondItem="6" secondAttribute="top" constant="76" id="1937"/>
+                <constraint firstItem="1502" firstAttribute="top" secondItem="1501" secondAttribute="top" id="1949"/>
+                <constraint firstItem="8" firstAttribute="leading" secondItem="1689" secondAttribute="leading" id="1954"/>
+                <constraint firstItem="8" firstAttribute="centerX" secondItem="1913" secondAttribute="centerX" id="1957"/>
+                <constraint firstItem="8" firstAttribute="top" secondItem="6" secondAttribute="top" constant="25" id="1958"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="988.jpg" width="500" height="375"/>
+        <image name="black.jpeg" width="348" height="145"/>
+    </resources>
+</document>
